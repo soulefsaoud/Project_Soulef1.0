@@ -24,10 +24,7 @@ class ArticleType extends AbstractType
                     'placeholder' =>'Tapez le titre ici...'
                 ]
             ])
-            ->add('createdAt', DateType::class, [
-                'label' => 'Date de publication'
-            ])
-        ;
+           ;
     }
 
     public function configureOptions(OptionsResolver $resolver)
